@@ -1,0 +1,43 @@
+.text-primary {
+  color: #28a745;
+}
+.text-secondary {
+  color: #0284d0;
+}
+
+/*button*/
+.btn {
+  /*Step 4.1: just copy*/
+  display:inline-block;
+  cursor: pointer;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover{
+    opacity:0.8;
+}
+.btn-outline{
+    background: transparent; /*Note7: là trong suốt,cho trùng với màu nền luôn.*/
+    border:1px solid #fff;
+}
+
+/*background*/
+.bg-primary{
+    background: #28a745;
+    color: #fff;
+}
+.bg-secondary{
+    background: #0284d0;
+    color:#fff;
+}
+.bg-light{
+    background: #f4f4f4;
+    color:#333;
+}
+.bg-dark{
+    background: #333;
+    color:#fff;
+}
